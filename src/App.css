@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+  font-weight: 100;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #FEFAE0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
