@@ -11,7 +11,24 @@ function About() {
         </div>
         <div id="textBoxRight">
           <h1>Education</h1>
-          <p>I'm currently pursuing a B.S. in Computer Science with a minor in Statistics at the University of Florida. Go Gators!</p>
+          <p>Currently pursuing a B.S. in Computer Science with a minor in Statistics at the University of Florida</p>
+          <ul> 
+            <li>Expected May 2026</li>
+            <li>GPA: 3.88</li>
+          </ul>
+          <p id="tiny">Involvement:</p>
+          <ul>
+            <li>INDIE Lab</li>
+            <li>Kappa Kappa Psi Honorary Fraternity</li>
+            <li>UF Band Program</li>
+          </ul>
+          <p id="tiny">Relevant Completed Courses:</p>
+          <ul>
+            <li>Data Structures and Algorithms </li>
+            <li>Programming Fundamentals 1 & 2</li>
+            <li>Computer Organization</li>
+          </ul>
+          <h2> Go Gators!</h2>
         </div>
       </div>
 

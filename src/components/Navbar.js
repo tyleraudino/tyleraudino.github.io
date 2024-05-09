@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import "../styles/Navbar.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
+import Logo from "../assets/TA_logo.jpg"
 
 function Navbar() {
 
@@ -15,7 +16,8 @@ function Navbar() {
     <div className='navbar'>
       <div className='firstRow'>
         <div className='leftSide'>
-            <h2>Tyler Audino</h2>
+            <h2 id="logo">Tyler Audino</h2>
+            <img src= {<Logo/>} alt="Logo of the letters T and A"/>
         </div>
         <div className='rightSide'>
           <div className='shownLinks'>
@@ -36,6 +38,7 @@ function Navbar() {
             <Link to='/About'> About </Link>
             <Link to='/Projects'> Projects </Link>
             <Link to='/Contact'> Contact </Link>
+            <Link to='https://docs.google.com/document/d/15gCRM4ZKPOMjzYXz97ftzKUoQ3KKqno91AeZQ1nZQY0/edit?usp=sharing' target='_blank'>Resume</Link>
           </div>  
     </div>
   );

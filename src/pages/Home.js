@@ -7,8 +7,8 @@ function Home() {
     <div className='home'>
       <div className='homeLeftSide'>
         <h1>Hello!</h1>
+        <p>My Name is Tyler Audino and I'm an aspiring software engineer.</p>
         <p>Write something about how you love comp sci and being well rounded here. Yadda yadda Yadda. 
-          Write something about how you love comp sci and being well rounded here. Yadda yadda Yadda. 
           Write something about how you love comp sci and being well rounded here. Yadda yadda Yadda. 
           Write something about how you love comp sci and being well rounded here. Yadda yadda Yadda</p>
       </div>

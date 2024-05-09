@@ -11,8 +11,9 @@
   flex-direction: row;
 }
 
-h2 {
+h2#logo {
   font-weight: 400;
+  font-size: 150%;
 }
 
 hr {
@@ -25,7 +26,7 @@ hr {
 }
 
 .leftSide {
-    flex: 40%;
+    flex: 30%;
     height: 75px;
     display: flex;
     align-items: center;
@@ -66,42 +67,70 @@ hr {
 
 .sideBar a {
     color: #FEFAE0;
-    margin: 7%;
+    margin: auto;
 }
 
-@media only screen and (max-width: 600px) {
-    .navbar .leftSide {
-        padding-left: 20px;
-        width: 50%
-    }
-    
-    .navbar .leftSide a {
-      display: none;
-    }
-
-    .navbar .sideBar.open {
-      display: flex;
-      color: white;
-    }
-
-    .navbar .rightSide .shownLinks {
-      display: none;
-    }
-
-    
-    .navbar .rightSide {
-      justify-content: flex-end;
-      padding-right: 0px;
-    }
-  
-    .navbar .rightSide button {
-      display: inherit;
-      padding-right: 50px;
-    }
+@media only screen and (max-width: 750px) {
+  .navbar .rightSide .shownLinks {
+    display: none;
+    width: 0;
   }
 
-@media only screen and (min-width: 600px) {
+  .navbar .rightSide .shownLinks a {
+    font-size: 1px;
+  }
+  
+  .navbar .rightSide {
+    justify-content: flex-end;
+    padding-right: 0px;
+    width: 40%;
+  }
+
+  .navbar .leftSide h2{
+    padding-left: 20px;
+    width: 50%;
+  }
+    
+  .navbar .leftSide a {
+    display: none;
+  }
+
+  .navbar .sideBar.open {
+    display: flex;
+    color: white;
+  }
+
+
   .navbar .rightSide button {
+    display: inherit;
+    padding-right: 50px;
+  }
+  }
+
+  .navbar .leftSide img {
+    display: inherit;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .navbar .leftSide h2{
+    display: none;
+  }
+
+@media only screen and (min-width: 750px) {
+  .navbar .rightSide button {
+    display: none;
+  }
+
+  .navbar .leftSide h2{
+    display: inherit;
+  }
+
+  .navbar .leftSide img {
+    display: none;
+  }
+
+  .navbar .sideBar.open{
     display: none;
   }
 

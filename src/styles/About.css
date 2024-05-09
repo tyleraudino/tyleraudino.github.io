@@ -15,25 +15,48 @@
 
 
 p#tiny {
-    font-size: 100%
+    font-size: 150%;
+    margin: 0;
+    margin-top: 10px;
 
 }
 
+p {
+    margin: 2%;
+}
+
+h2 {
+    font-size: 250%;
+    font-weight: 200;
+}
+
+li {
+    font-size: 150%;
+}
+
+ul {
+    margin: 5px;
+}
+
+.ufPhoto {
+    width: 70%;
+}
+
 .ufPhoto img {
-    max-width: 90%;  
-    max-height: 100%;
+    max-width: 100%;  
+    max-height: 80%;
     display: block;
     margin: auto;
 }
 
 #textBoxRight {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
     text-align: left;
-    padding-right: 5%;
+    padding: 0 5%;
 }
 
 #textBoxLeft {
@@ -54,3 +77,32 @@ p#tiny {
     width: 50%;
 }
 
+@media only screen and (max-width: 750px) {
+#container {
+    flex-direction: column-reverse;
+}
+
+#textBoxRight {
+    width: 100%;
+}
+
+#textBoxLeft {
+    width: 100%;
+}
+
+.ufPhoto {
+    width: 100%;
+}
+
+.ufPhoto img {
+    padding: 0;
+    margin: auto;
+    width: 90%;
+}
+
+}
+
+@media only screen and (min-width: 750px) {
+    
+    
+}
