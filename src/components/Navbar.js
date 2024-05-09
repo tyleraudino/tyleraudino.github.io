@@ -23,6 +23,7 @@ function Navbar() {
             <Link to='/About'> About </Link>
             <Link to='/Projects'> Projects </Link>
             <Link to='/Contact'> Contact </Link>
+            <Link to='https://docs.google.com/document/d/15gCRM4ZKPOMjzYXz97ftzKUoQ3KKqno91AeZQ1nZQY0/edit?usp=sharing' target='_blank'>Resume</Link>
           </div>
           <button onClick={toggleSidebar}>
             <ReorderIcon/>
