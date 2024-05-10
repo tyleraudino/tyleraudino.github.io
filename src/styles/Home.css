@@ -31,11 +31,15 @@
     text-align: left;
 }
 
+.homeLeftSide p {
+    margin: 0 0 5% 0;
+}
+
 
 
 @media only screen and (max-width: 750px) {
     p {
-        font-size: 2vh;
+        font-size: 2.5vh;
         font-weight: 50;
     } 
 

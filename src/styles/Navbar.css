@@ -6,6 +6,25 @@
     color: #283618;
 }
 
+.navbar a {
+  color : #223F39;
+  margin: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar img {
+  max-height: 90%;
+  max-width: 100%;
+}
+
+.navbar button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #283618;
+}
+
 .firstRow{
   display: flex;
   flex-direction: row;
@@ -42,19 +61,7 @@ hr {
     padding-right: 5%;
 }
 
-.navbar a {
-    color : #223F39;
-    margin: 20px;
-    text-decoration: none;
-    cursor: pointer;
-}
 
-.navbar button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    color: #283618;
-}
 
 .sideBar {
     display : none;

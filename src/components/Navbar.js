@@ -17,7 +17,7 @@ function Navbar() {
       <div className='firstRow'>
         <div className='leftSide'>
             <h2 id="logo">Tyler Audino</h2>
-            <img src= {<Logo/>} alt="Logo of the letters T and A"/>
+            <img src={Logo} alt="Logo of the letters T and A"/>
         </div>
         <div className='rightSide'>
           <div className='shownLinks'>
