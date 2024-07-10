@@ -1,76 +1,42 @@
 import React from 'react'
 import "../styles/About.css"
 import BandPic from "../assets/UF_Band.png"
-import pythonLogo from "../assets/Python-logo.png"
 
 function About() {
   return (
-    <div className='about'>
-      <div id='container'>
-        <div className='ufPhoto'>
-          <img src={BandPic} alt="Tyler in a Gator Marching Band uniform, playing mellophone on the UF football field at halftime."/>
-        </div>
-        <div id="textBoxRight">
-          <h1>Education</h1>
-          <p>I'm currently pursuing a B.S. in Computer Science with a minor in Statistics at the University of Florida!</p>
-          <ul> 
-            <li>Expected May 2026</li>
-            <li>GPA: 3.88</li>
-          </ul>
-          <p id="tiny">Involvement:</p>
-          <ul>
-            <li>INDIE Lab</li>
-            <li>Kappa Kappa Psi Honorary Fraternity</li>
-            <li>UF Band Program</li>
-          </ul>
-          <p id="tiny">Relevant Completed Courses:</p>
-          <ul>
-            <li>Data Structures and Algorithms </li>
-            <li>Programming Fundamentals 1 & 2</li>
-            <li>Computer Organization</li>
-          </ul>
-          <h2> Go Gators!</h2>
-        </div>
+    <div className='about page'>
+      <div className='titleBox'>
+        <h2>About</h2>
       </div>
 
-      <div id='container'>
-        <div id="textBoxLeft">
-          <h1>Skills</h1>
-          <h3>Technical:</h3>
-          <ul>
-            <li>Python (NumPy, Pandas, Plot.ly)</li>
-            <li>Javascript (React.js, Node.js)</li>
-            <li>C++/C (SFML)</li>
-            <li>HTML/CSS</li>
-            <li>Git</li>
-          </ul>
-          <h3>Non-Technical:</h3>
-          <ul>
-            <li>AGILE Framework</li>
-            <li>Kanban</li>
-            <li>Communication</li>
-            <li>Problem Solving</li>
-          </ul>
-        </div>
-        <div className='skillsImages'>
-          <img src={pythonLogo} alt="The Python programming language logo" id="python"/>
-        </div>
+      <div className='halfPage'>
+          <img src = {BandPic} id="bandPic" alt="Tyler in a Gator Marching Band uniform playing Mellophone during a UF football game."/>
       </div>
 
-      <div id='container'>
-        <div className='funFactsImages'>
-        <p>Fun fact images here</p>
-        </div>
+        <div className='stackedContainers'>
+          <div className='container'>
+              <h3>Education</h3>
+              <p>University of Florida</p>
+              <p>B.S. Computer Science</p>
+              <p>Minor Statistics</p>
+          </div>
 
-        <div id="textBoxRight"> 
-        <h1>Fun Facts!</h1>
-        <ul>
-          <li>I've played the French horn for 8 years and the mellophone for 6 years!</li>
-          <li>I founded <a href='https://www.depop.com/tyxplr/' target="_blank" rel="noopener noreferrer">my own buisness</a> at 15, selling upcycled and gently-loved clothing online.</li>
-          <li>I've taught myself how to crochet and sew as a hobby!</li>
-        </ul>
-        </div>
+          <div className='container dark' >
+          <h3>Involvement</h3>
+              <p>INDIE Lab</p>
+              <p>Kappa Kappa Psi Honorary Fraternity</p>
+              <p>UF Band Program</p>
+          </div>
+
+          <div className='container'>
+          <h3>Areas of Interest</h3>
+              <p>Human-Computer Interaction</p>
+              <p>Data Science</p>
+              <p>UI/UX Design</p>
+          </div>
       </div>
+    
+     
     </div>
   )
 }

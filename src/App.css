@@ -6,12 +6,128 @@
   height: auto;
   min-height: 100%;
   display: flex;
+  align-items: center;
   flex-direction: column;
   background-color: #FEFAE0;
+  color: #223F39;
+}
+
+.section {
+  width: 85vw;
+  padding: 60px 0px; /* Add padding to compensate for the fixed nav */
+  margin-top: 60px; /* Same height as nav to avoid overlap */
+  height: 90vh;
+}
+
+.page {
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.titleBox{
+  text-align: left;
+  width: 85vw;
+}
+
+.halfPage{
+  width: 50%;
+  display: flex;
+}
+
+.halfPage img {
+  max-height: 75vh;
+  max-width: 100%;
+}
+
+.container {
+  width: 30vw;
+  border: #223F39 0.1rem solid;
+  border-radius: 3rem;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+}
+
+.dark {
+  background-color:#223F39;
+  color: #FEFAE0;
+}
+
+.stackedContainers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.largeContainer {
+  width: 45vw;
+  height: 70vh;
+  border: #223F39 0.1rem solid;
+  border-radius: 3rem;
+}
+
+.largeContainer img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.green-midsize-button {
+  width: 15vw;
+  height: 8vh;
+  background-color: #223F39;
+  color: #FEFAE0;
+  border-radius: 3rem;
+  align-items: center;
+  text-align: center;
+  border: #12211e 0.1rem solid;
+  padding: 1rem;
+}
+
+.leftText {
+  text-align: left;
+}
+
+.rightText {
+  max-width: 50%;
+  text-align: right;
+}
+
+button:hover {
+  background-color: #12211e; /* Color on hover */
 }
 
 body {
   padding: 0;
   margin: 0;
   height: 100vh;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 50;
+  margin: 1%;
+} 
+
+h1 {
+  font-size: 6rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 550;
+  margin: 1rem 0 1rem 0;
 }

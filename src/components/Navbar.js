@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
+import { Link, Element } from 'react-scroll'
 import "../styles/Navbar.css";
-import ReorderIcon from "@material-ui/icons/Reorder";
+import ReorderIcon from '@mui/icons-material/Reorder';
 import Logo from "../assets/TA_logo.jpg"
 
 function Navbar() {
@@ -21,11 +21,11 @@ function Navbar() {
         </div>
         <div className='rightSide'>
           <div className='shownLinks'>
-            <Link to='/'> Home </Link>
-            <Link to='/About'> About </Link>
-            <Link to='/Projects'> Projects </Link>
-            <Link to='/Contact'> Contact </Link>
-            <Link to='https://docs.google.com/document/d/15gCRM4ZKPOMjzYXz97ftzKUoQ3KKqno91AeZQ1nZQY0/edit?usp=sharing' target='_blank'>Resume</Link>
+            <Link to="Home" smooth={true} duration={500}>Home</Link>
+            <Link to="About" smooth={true} duration={500}>About</Link>
+            <Link to="Experience" smooth={true} duration={500}>Experience</Link>
+            <Link to="Projects" smooth={true} duration={500}>Projects</Link>
+            <Link to="Contact" smooth={true} duration={500}>Contact</Link>
           </div>
           <button onClick={toggleSidebar}>
             <ReorderIcon/>
@@ -34,10 +34,10 @@ function Navbar() {
         </div>
         <hr/>
         <div className='sideBar' style={{ display: openSidebar ? 'flex' : 'none' }}>
-            <Link to='/'> Home </Link>
-            <Link to='/About'> About </Link>
-            <Link to='/Projects'> Projects </Link>
-            <Link to='/Contact'> Contact </Link>
+        <Link to="Home" smooth={true} duration={500}>Home</Link>
+            <Link to="About" smooth={true} duration={500}>About</Link>
+            <Link to="Projects" smooth={true} duration={500}>Projects</Link>
+            <Link to="Contact" smooth={true} duration={500}>Contact</Link>
             <Link to='https://docs.google.com/document/d/15gCRM4ZKPOMjzYXz97ftzKUoQ3KKqno91AeZQ1nZQY0/edit?usp=sharing' target='_blank'>Resume</Link>
           </div>  
     </div>

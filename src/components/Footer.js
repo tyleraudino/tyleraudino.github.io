@@ -1,5 +1,4 @@
 import React from 'react'
-// import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../styles/Footer.css";
 
 

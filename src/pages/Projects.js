@@ -2,7 +2,11 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <div className='projects page'>
+      <div className='titleBox'>
+        <h2>Projects</h2>
+      </div>
+    </div>
   )
 }
 

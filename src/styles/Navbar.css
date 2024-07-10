@@ -1,9 +1,10 @@
 .navbar {
+    position: fixed;
     background-color: #FEFAE0;
     width: 100%;
     display: flex;
     flex-direction: column;
-    color: #283618;
+    z-index: 1000;
 }
 
 .navbar a {
@@ -11,6 +12,7 @@
   margin: 20px;
   text-decoration: none;
   cursor: pointer;
+  font-size: 150%;
 }
 
 .navbar img {
@@ -22,7 +24,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-  color: #283618;
+  color: #223F39;
 }
 
 .firstRow{
@@ -32,13 +34,13 @@
 
 h2#logo {
   font-weight: 400;
-  font-size: 150%;
+  font-size: 200%;
 }
 
 hr {
-  color: #283618;
+  color: #223F39;
   border: none;
-  background-color: #283618;
+  background-color: #223F39;
   height: 1px;
   width: 100%;
   margin: 0;
@@ -81,6 +83,10 @@ hr {
   .navbar .rightSide .shownLinks {
     display: none;
     width: 0;
+  }
+
+  .navbar a {
+    font-size: 100%;
   }
 
   .navbar .rightSide .shownLinks a {

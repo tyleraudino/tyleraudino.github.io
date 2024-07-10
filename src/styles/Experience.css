@@ -1,0 +1,16 @@
+.stackedContainers  .experience {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#workexp{
+    padding: 0 1.5rem;
+    display: block;
+    flex-direction: row;
+    box-sizing: border-box
+}
+
+.header {
+    width: 100%;
+}
