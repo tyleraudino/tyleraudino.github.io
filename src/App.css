@@ -67,7 +67,6 @@ display: flex;
 
 .largeContainer {
   width: 45vw;
-  height: 70vh;
   border: #223F39 0.1rem solid;
   border-radius: 3rem;
 }
