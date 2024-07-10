@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb0be41c.css",
-    "main.js": "/static/js/main.e02b8426.js",
-    "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
+    "main.css": "/static/css/main.efce636f.css",
+    "main.js": "/static/js/main.a4b1ffe7.js",
+    "static/js/453.99dcf01f.chunk.js": "/static/js/453.99dcf01f.chunk.js",
     "static/media/UF_Band.png": "/static/media/UF_Band.aab3d1af6e5dcb7c6a97.png",
     "static/media/Headshot_Bright.jpg": "/static/media/Headshot_Bright.c41cf63db9c3875e5142.jpg",
+    "static/media/Tyler_Audino_Resume.pdf": "/static/media/Tyler_Audino_Resume.7984340858a9db347ae7.pdf",
     "static/media/TA_logo.jpg": "/static/media/TA_logo.3adb69191f73dbdd1330.jpg",
     "index.html": "/index.html",
-    "main.bb0be41c.css.map": "/static/css/main.bb0be41c.css.map",
-    "main.e02b8426.js.map": "/static/js/main.e02b8426.js.map",
-    "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
+    "main.efce636f.css.map": "/static/css/main.efce636f.css.map",
+    "main.a4b1ffe7.js.map": "/static/js/main.a4b1ffe7.js.map",
+    "453.99dcf01f.chunk.js.map": "/static/js/453.99dcf01f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb0be41c.css",
-    "static/js/main.e02b8426.js"
+    "static/css/main.efce636f.css",
+    "static/js/main.a4b1ffe7.js"
   ]
 }
