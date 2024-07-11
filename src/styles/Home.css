@@ -1,11 +1,10 @@
+
+
 .home {
-    background-color: #FEFAE0;
-    display: flex;
-    justify-content: center;
-    padding: 30px 10px 0px 10px;
-    color: #223F39;
     gap: 1rem;
+    padding-top: 20px;
 }
+
 
 .homeRightSide{
     width: 50%;
@@ -78,5 +77,11 @@ button{
         width: 100%;
         padding: 0;
     }
+
+    .buttonContainer{
+        padding: 0;
+    }
+    
+
 
 }

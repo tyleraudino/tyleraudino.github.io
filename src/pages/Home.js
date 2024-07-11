@@ -13,7 +13,7 @@ function Home() {
   }
 
   return (
-    <div className='home'>
+    <div className='home page'>
       <div className='homeLeftSide'>
         <div className='homeLeftText'>
           <h1>Hello!</h1>

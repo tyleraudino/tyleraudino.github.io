@@ -1,39 +1,9 @@
+.about{
+    flex-wrap: wrap;
+}   
+
+
 .about img {
     border-radius: 3rem;
-}
 
-#bandPic {
-    align-self: flex-start;
-}
-
-.about .stackedContainers {
-    width: 50%;
-}
-
-
-
-@media only screen and (max-width: 750px) {
-#container {
-    flex-direction: column-reverse;
-}
-
-#textBoxRight {
-    width: 100%;
-}
-
-#textBoxLeft {
-    width: 100%;
-}
-
-}
-
-@media only screen and (max-width: 750px) {
-    .about{
-        flex-direction: column;
-    }
-    
-    .container {
-        width: 100%;
-    }
-    
 }

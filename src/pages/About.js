@@ -3,6 +3,7 @@ import "../styles/About.css"
 import BandPic from "../assets/UF_Band.png"
 
 function About() {
+  
   return (
     <div className='about page'>
       <div className='titleBox'>
@@ -13,6 +14,7 @@ function About() {
           <img src = {BandPic} id="bandPic" alt="Tyler in a Gator Marching Band uniform playing Mellophone during a UF football game."/>
       </div>
 
+      <div className='halfPage center'>
         <div className='stackedContainers'>
           <div className='container'>
               <h3>Education</h3>
@@ -34,9 +36,8 @@ function About() {
               <p>Data Science</p>
               <p>UI/UX Design</p>
           </div>
+        </div>
       </div>
-    
-     
     </div>
   )
 }

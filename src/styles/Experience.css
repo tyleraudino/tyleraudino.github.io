@@ -1,7 +1,10 @@
+.experience {
+    flex-wrap: wrap;
+}
+
 .stackedContainers  .experience {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 }
 
 #workexp{

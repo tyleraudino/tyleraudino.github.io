@@ -8,8 +8,8 @@ function Experience() {
         <h2>Experience</h2>
       </div>
 
-      <div className='halfPage'>
-        <div className='stackedContainers'>
+      <div className='halfPage '>
+        <div className='stackedContainers center'>
           <div className='container'>       
                 <h3>Lanuages</h3>
                   <p>Python - Experienced - 2 years</p>
