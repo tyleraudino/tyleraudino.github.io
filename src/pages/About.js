@@ -17,23 +17,24 @@ function About() {
       <div className='halfPage center'>
         <div className='stackedContainers'>
           <div className='container'>
-              <h3>Education</h3>
+              <h3 className='topMargin'>Education</h3>
               <p>University of Florida</p>
               <p>B.S. Computer Science</p>
               <p>Minor Statistics</p>
           </div>
 
           <div className='container dark' >
-          <h3>Involvement</h3>
+          <h3 className='topMargin'>Involvement</h3>
               <p>INDIE Lab</p>
               <p>Kappa Kappa Psi Honorary Fraternity</p>
               <p>UF Band Program</p>
           </div>
 
           <div className='container'>
-          <h3>Areas of Interest</h3>
+          <h3 className='topMargin'>Areas of Interest</h3>
               <p>Human-Computer Interaction</p>
               <p>Data Science</p>
+              <p>Data Visualization</p>
               <p>UI/UX Design</p>
           </div>
         </div>

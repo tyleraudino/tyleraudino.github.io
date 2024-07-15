@@ -8,10 +8,10 @@ function Experience() {
         <h2>Experience</h2>
       </div>
 
-      <div className='halfPage '>
-        <div className='stackedContainers center'>
+      <div className='halfPage'>
+        <div className='stackedContainers centerVertical'>
           <div className='container'>       
-                <h3>Lanuages</h3>
+                <h3 className='topMargin'>Lanuages</h3>
                   <p>Python - Experienced - 2 years</p>
                   <hr/>
                   <p>C++/C - Intermediate - 1 year </p>
@@ -21,7 +21,7 @@ function Experience() {
                   <p>HTML/CSS - Intermediate - 1 year</p>
           </div>
           <div className='container'>
-                <h3>Other</h3>
+                <h3 className='topMargin'>Other</h3>
                 <p>Git</p>
                 <hr/>
                 <p>AGILE Framework</p>
@@ -34,7 +34,7 @@ function Experience() {
       </div>
         
       <div className='halfPage'>
-        <div className='largeContainer dark' id="workexp">
+        <div className='large container dark' id="workexp">
           <div className='leftText'>
             <p><b>Application Development Intern</b> - (May 2024 - Present)</p>
             <p>Florida Blue </p>

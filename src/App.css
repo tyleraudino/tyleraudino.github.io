@@ -10,6 +10,8 @@
   flex-direction: column;
   background-color: #FEFAE0;
   color: #223F39;
+  margin: 0;
+  padding: 0;
 }
 
 .page {
@@ -19,6 +21,7 @@
 .titleBox{
   text-align: left;
   width: 100%;
+  margin: 5px 0 ;
 }
 
 .halfPage{
@@ -28,6 +31,11 @@
 
 .center{
   justify-content: center;
+  margin: auto;
+}
+
+.centerVertical {
+  justify-content: flex-start;
 }
 
 .halfPage img {
@@ -35,8 +43,13 @@
   max-width: 100%;
 }
 
+.thirdPage {
+  width: 32%;
+  display: flex;
+}
+
 .container {
-  width: 30vw;
+  height: auto;
   border: #223F39 0.1rem solid;
   border-radius: 3rem;
   justify-content: center;
@@ -53,16 +66,18 @@
   flex-direction: column;
   align-items: center;
   justify-items: center;
+  gap: 0.5rem;
+}
+
+.horizontalContainers {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
-.largeContainer {
-  width: 100%;
-  border: #223F39 0.1rem solid;
-  border-radius: 3rem;
-}
-
-.largeContainer img {
+.large .container img {
   max-height: 100%;
   max-width: 100%;
 }
@@ -86,6 +101,11 @@
 .rightText {
   max-width: 50%;
   text-align: right;
+}
+
+.largeLink {
+  color: #FEFAE0;
+  font-size: 30px;
 }
 
 button:hover {
@@ -119,7 +139,15 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight: 550;
-  margin: 1rem 0 1rem 0;
+  margin: 0;
+}
+
+.topMargin {
+  margin: 1rem 0;
+}
+
+.bottomMargin {
+  margin: 0 0 1rem 0;
 }
 
 @media only screen and (min-width: 750px){
@@ -138,24 +166,35 @@ h3 {
     width: 50%;
 }
 
-
   .container {
     width: 30vw;
+  }
+
+  .large {
+    width: 100%;
   }
 
   .page { 
     flex-direction: row;
   }
 
+  .small {
+    width: 27vw;
+  }
+
 }
 
 @media only screen and (max-width: 750px) {
+
+  h2 {
+    font-size: 3rem;
+  }
   .green-midsize-button {
     width: 35vw;
-
   }
 
   .section {
+    width: 100vw;
     height: auto;
     margin-top: 0;
     padding: 60px 0 0 0;
@@ -171,8 +210,17 @@ h3 {
   }
 
   .container {
-      width: 100%;
+    width: 100%;
   }
+  
+  .large {
+    width: 100%;
+  }
+
+  .small {
+    width: 100%
+  }
+  
 
   .page {
     padding: 0 2rem;
