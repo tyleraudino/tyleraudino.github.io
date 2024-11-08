@@ -20,6 +20,7 @@ function Home() {
           <br></br>
           <h3>I'm <b>Tyler Audino</b>, an aspiring software engineer.</h3>
           <p>I'm passionate about creating programs that are centered around the user. Combining creativity with problem-solving to develop software that is intuitive and user-friendly is my goal.</p>
+          <p>I would love to connect with you; I am currently looking for a Summer 2025 internship. Please fill out my contact form below or connect with me on LinkedIn! </p>
         </div>
         <br></br>
         <div className='buttonContainer'>

@@ -159,7 +159,6 @@ h3 {
     width: 85vw;
     padding: 60px 0px; /* Add padding to compensate for the fixed nav */
     margin-top: 60px; /* Same height as nav to avoid overlap */
-    height: 90vh;
   }
 
   .halfPage {

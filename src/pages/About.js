@@ -28,6 +28,7 @@ function About() {
               <p>INDIE Lab</p>
               <p>Kappa Kappa Psi Honorary Fraternity</p>
               <p>UF Band Program</p>
+              <p>UF Student Engagement</p>
           </div>
 
           <div className='container'>
