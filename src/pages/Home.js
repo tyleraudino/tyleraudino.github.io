@@ -4,8 +4,8 @@ import headShot from "../assets/Headshot_Bright.jpg";
 import resume from "../assets/Tyler_Audino_Resume.pdf";
 
 function Home() {
-  const openPdf = () => {
-    window.open(resume, '_blank');
+  const openResume = () => {
+    window.open('https://docs.google.com/document/d/15gCRM4ZKPOMjzYXz97ftzKUoQ3KKqno91AeZQ1nZQY0/edit?usp=drive_link', '_blank');
   };
 
   const openLinkedin = () => {
@@ -24,7 +24,7 @@ function Home() {
         </div>
         <br></br>
         <div className='buttonContainer'>
-          <button className='green-midsize-button' onClick={openPdf}>
+          <button className='green-midsize-button' onClick={openResume}>
             <p>Resume</p>
           </button>
           <button className='green-midsize-button' onClick={openLinkedin}>
